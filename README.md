@@ -91,9 +91,11 @@ mvn test
 ```
 ###    5️⃣ View Reports
 ```
-After execution, TestNG automatically generates a report.
-You can open it from the following path:
+After running the test suite, you can open the reports using the following paths:
 
 /test-output/index.html
+or
+reports/ExtentReport.html
+
 ```
 
