@@ -1,16 +1,16 @@
-# 🧪 Selenium E-Commerce Automation Project
+# 🧪 Selenium Automation Project
 
-This project automates the **Login** and **Product Search** functionalities of an e-commerce website using **Selenium WebDriver, Java, and TestNG**.  
-It demonstrates a simple **Page Object Model (POM)** framework design to ensure modularity, reusability, and clean code structure.
+This is a **Page Object Model (POM)** based automation framework built using **Selenium WebDriver**, **Java**, and **TestNG**, integrated with **Extent Reports** for visual reporting.
+
 
 ---
 
 ## 📂 Project Overview
-The objective of this mini framework is to validate core user flows such as:
-- Launching the e-commerce portal ([https://www.demoblaze.com/](https://www.demoblaze.com/))
-- Performing Login functionality
-- Searching and selecting a product
-- Managing browser sessions efficiently
+The DemoQA Automation Framework is developed using Java, Selenium WebDriver, and TestNG.
+It automates various test scenarios on the DemoQA
+ web application, covering real-world functionalities such as Alerts, Frames, Windows, and Web Elements.
+
+This project follows the Page Object Model (POM) design pattern for clean separation between test scripts and page logic.
 
 
 ---
@@ -62,8 +62,8 @@ DemoQAAutomationFramework/
 ### 1️⃣ Clone the Repository
 ```
 bash
-git clone https://github.com/<your-username>/SeleniumEcommerceAutomation.git
-cd SeleniumEcommerceAutomation
+git clone https://github.com/<your-username>/SeleniumAutomation.git
+cd SeleniumAutomation
 ```
 ### 2️⃣ Import into IDE
 ```
