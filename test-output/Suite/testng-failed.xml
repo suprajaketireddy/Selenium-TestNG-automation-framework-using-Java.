@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.TextBoxTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyTextBoxFormSubmission"/>
+        </methods>
+      </class> <!-- tests.TextBoxTest -->
+      <class name="tests.WindowsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="handleBrowserWindows"/>
+        </methods>
+      </class> <!-- tests.WindowsTest -->
+      <class name="tests.AlertsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="handleAllAlerts"/>
+        </methods>
+      </class> <!-- tests.AlertsTest -->
+      <class name="tests.FramesTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="readTextFromFrames"/>
+        </methods>
+      </class> <!-- tests.FramesTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
