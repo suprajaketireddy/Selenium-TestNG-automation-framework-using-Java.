@@ -31,20 +31,31 @@ The objective of this mini framework is to validate core user flows such as:
 ## 🗂 Folder Structure
 
 ```text
-SeleniumEcommerceAutomation/
-│
-├── src/
-│   ├── main/java/pages/
-│   │   ├── LoginPage.java
-│   │   └── SearchPage.java
-│   └── test/java/
-│       ├── base/BaseTest.java
-│       └── tests/
-│           ├── LoginTest.java
-│           └── SearchTest.java
+DemoQAAutomationFramework/
 │
 ├── pom.xml
-└── testng.xml
+├── testng.xml
+├── src/
+│   ├── main/java/
+│   │   ├── base/
+│   │   │   └── BaseTest.java
+│   │   ├── pages/
+│   │   │   ├── HomePage.java
+│   │   │   ├── TextBoxPage.java
+│   │   │   ├── AlertsPage.java
+│   │   │   ├── WindowsPage.java
+│   │   │   └── FramesPage.java
+│   │   └── reports/
+│   │       └── ExtentManager.java
+│   │
+│   └── test/java/
+│       └── tests/
+│           ├── TextBoxTest.java
+│           ├── AlertsTest.java
+│           ├── WindowsTest.java
+│           └── FramesTest.java
+└── test-output/
+
 ```
 ## ⚙️ Execution Steps
 
